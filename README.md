@@ -23,14 +23,14 @@ Query kernel addresses, translate virtual to physical addresses, inspect the PFN
 - Memory compression statistics (Windows 10+)
 
 ### Kernel Objects
-- **Kernel address enumeration** - EPROCESS and KTHREAD pointers for all processes/threads from usermode
+- **Kernel address enumeration** - EPROCESS and KTHREAD pointers for all processes/threads
 
 ### Kernel Drivers
 - Loaded kernel driver enumeration
 - Driver load order, base addresses, sizes, and paths
 
 ### Ntoskrnl Exports
-- **Kernel export resolution** - Full ntoskrnl.exe export table with calculated kernel addresses from usermode
+- **Kernel export resolution** - Full ntoskrnl.exe export table with calculated kernel addresses
 
 ### Physical Memory
 - **Virtual to physical address translation** - Translate any kernel VA to PA from usermode via Superfetch
