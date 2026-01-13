@@ -3,7 +3,7 @@
 
 ## Overview
 
-**NTMemory** is a fully usermode NT Explorer.<br>
+**NTMemory** is a fully usermode Windows NT Explorer.<br>
 Query kernel addresses, translate virtual to physical addresses, inspect the PFN database, and more.
 
 ---
